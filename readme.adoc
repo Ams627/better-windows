@@ -13,28 +13,28 @@
 
 Git-bash is the "leanest-and-meanest" way to use Windows from the command line. In spite of this, there are some problems.
 
-# Cygwin
+. Cygwin
 Cygwin might be present. This interferes with the PATH variable.
 
-# Filename completion.
+. Filename completion.
 Filename completion is not on the tab key by default. It's on ESC
 
-# No bookmarking. We write and introduce the `aa` command for this.
+. No bookmarking. We write and introduce the `aa` command for this.
 
-# Visual Studio is the most common IDE on Windows. We must be able to start Visual Studio and Visual Studio Code from git-bash
+. Visual Studio is the most common IDE on Windows. We must be able to start Visual Studio and Visual Studio Code from git-bash
 
-# You cannot easily start Windows apps from git-bash without the shell "remembering" them - it then reports job status. When you 
+. You cannot easily start Windows apps from git-bash without the shell "remembering" them - it then reports job status. When you 
 are starting, for example, Chrome, you do not want bash to remember a job number. There should be an easy way to "start-and-forget" any job.
 
-# You need a few common git-related aliases (e.g. gs = git status, gpu = git push origin/master, gdiff etc.)
+. You need a few common git-related aliases (e.g. gs = git status, gpu = git push origin/master, gdiff etc.)
 
-# You need a sensible git diff-tool preset.
+. You need a sensible git diff-tool preset.
 
-# You need a far better PS1 prompt
+. You need a far better PS1 prompt
 
-# You need the terminal title to be set properly (i.e. to the current branch and commit)
+. You need the terminal title to be set properly (i.e. to the current branch and commit)
 
-# You need the dotnet tool to work properly and you need to be able to add your own extensions to it.
+. You need the dotnet tool to work properly and you need to be able to add your own extensions to it.
 
-# 
+ 
 
